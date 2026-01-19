@@ -1,0 +1,6 @@
+﻿@page
+@model RazorPagesApp.Pages.IndexModel
+
+<h2 style="padding-top:40px">@Model.Message</h2>
+<h2>@ViewData["Message"]</h2>
+<h3>Поточний час: @Model.PrintTime()</h3>
